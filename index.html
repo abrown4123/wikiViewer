@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Wikipedia Viewer</title>
+		<link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<link rel = "stylesheet" type = "text/css" href = "style.css">
+	</head>
+	<body>
+		<div class = "container">
+			<div class = "row" id = 'searchBar'>
+				<h1>Wikipedia Viewer</h1>
+				<img src = "https://upload.wikimedia.org/wikipedia/en/thumb/8/80/Wikipedia-logo-v2.svg/1122px-Wikipedia-logo-v2.svg.png">
+				<div>
+					<input type ="text" id ="search" name ='search' placeholder ='Search...' autocomplete = "off" required/>
+					<span class = "btn btn-default glyphicon glyphicon-search" id = "press"></span>
+					<a href = "https://en.wikipedia.org/wiki/Special:Random"target = "_blank"><span class = "btn btn-default glyphicon glyphicon-random" id = "press"></span></a>
+				</div>
+				<hr/>
+				<h4></h4>
+			</div>
+			<ul  class = "list-unstyled" id = "articles"></ul>
+		</div>	
+		<script type = "text/javascript" src = "script.js"></script>
+	</body>
+</html>
