@@ -48,7 +48,7 @@ function display(){
 			descript.innerHTML = info[2][index];
 			
 			
-			articleLink.appendChild(articleHead);		//makes the list clickable
+			articleLink.appendChild(articleHead); //makes the list clickable
 			articleLink.appendChild(descript);	
 			articleLi.appendChild(articleLink);  
 			articleUl.appendChild(articleLi); // adds the list to the existing ul element
@@ -61,3 +61,9 @@ function display(){
 }
 
 press.addEventListener('click', look); 
+
+enter.addEventListener('keypress', function(e){
+      if(e.charCode === 13){
+        look();
+      }
+});
