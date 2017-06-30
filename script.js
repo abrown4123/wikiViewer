@@ -1,4 +1,5 @@
 var press = document.getElementById('press');
+var enter = document.getElementById('search');
 var info;
 
 function look(){ // request for the searched information
