@@ -17,7 +17,7 @@ Type any topic into the search bar, and either click on the magnifying glass ![A
 	
 Once a topic has been searched, the page will populate with a list of the top ten articles that match your query. Once an article is clicked, it will populate in a new tab.
 
-![Alt text](./Images/batman.png?raw=true "Wikipedia Viewer")
+![Alt text](./Images/batman.png?raw=true "Batman")
 
 **Random Search:** To retrieve a random Wikipedia article, press the ![Alt text](./Images/random.png?raw=true "Random") button.  
 
