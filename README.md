@@ -13,7 +13,7 @@ Wikipedia Viewer is a third-party web application that allows users to search Wi
 
 Type any topic into the search bar, and click on the magnifying glass ![Alt text](./Images/glass.png?raw=true "Magnifying Glass") or press `enter`.
 
-*Note that attempting to search a blank text box will result in the following message:* ![Alt text](./Images/nosearch.png?raw=true "No Search")
+*Note that attempting to search an empty text box will result in the following message:* ![Alt text](./Images/nosearch.png?raw=true "No Search")
 	
 Once a topic has been searched, the page will populate with a list of the top ten articles that match your query. Once an article is clicked, it will populate in a new tab.
 
