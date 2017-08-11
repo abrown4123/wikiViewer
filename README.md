@@ -6,7 +6,7 @@ Wikipedia Viewer is a third-party web application that allows users to search Wi
 
 ### Features
 
-1. Users can type Wikipedia entries into a search bar and see the top ten resulting Wikipedia entries.
+1. Users can type Wikipedia entries into a search bar and see the top ten resulting Wikipedia articles.
 2. Users can click a button to see a random Wikipedia entry.
 
 ### How to Use
